@@ -15,14 +15,15 @@ export const stripMarks = (s: string) =>
 /** Removes grammar notation like "+ D." that is shown on the card but never typed. */
 export const cleanTerm = (s: string) => s.replace(/\s*\+\s*[A-ZŁŚŻ][a-ząćęłńóśźż]*\.?/g, '').trim();
 
+// Separators between forms ("/", ",", ";") count as plain spaces, so "robić zrobić"
+// matches "robić / zrobić" and multi-word answers are compared as a whole line.
 function normalize(s: string) {
   return cleanTerm(s)
     .toLowerCase()
     .replace(/[.!?¿¡«»"„”'’()]/g, '')
-    .split(/\s*[\/,;]\s*/)
-    .map((p) => p.replace(/\s+/g, ' ').trim())
-    .filter(Boolean)
-    .join(' / ');
+    .replace(/[\/,;]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 export function accepted(card: { front: string; answers?: string[] }) {

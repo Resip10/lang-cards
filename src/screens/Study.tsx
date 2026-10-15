@@ -389,7 +389,7 @@ const TypeBox = forwardRef<
         }}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        placeholder={pair ? 'обе формы через /' : 'Ответ'}
+        placeholder={pair ? 'обе формы через пробел' : 'Ответ'}
         autoCapitalize="off"
         autoCorrect="off"
         autoComplete="off"

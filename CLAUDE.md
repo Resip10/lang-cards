@@ -60,7 +60,7 @@ Required: `id`, `front` (target language), `back` (Russian). Everything else opt
 - `id`: unique within the language, stable forever. Pattern `<lang>-<deck-short>-<ascii-slug>`.
 - `gender`: `m` | `f` | `n` | `pl` for nouns.
 - `hint`: short grammar tag shown on both sides: `ndk / dk` for aspect pairs, case after a verb, plural, etc.
-- Aspect pairs: `"front": "robić / zrobić"` — typing mode then expects both forms separated by `/`.
+- Aspect pairs: `"front": "robić / zrobić"` — typing mode expects both forms, separated by a space (or `/`).
 - Verb government: `"front": "czekać na + B."` with `"answers": ["czekać na"]` and `"audio": "czekać na"`
   (grammar notation like `+ B.` is stripped from speech and typed answers anyway, but be explicit).
 - `example` + `exampleTr`: one natural sentence, preferably from the source material.
