@@ -1,0 +1,18 @@
+{
+  "name": "Ложные друзья",
+  "order": 1,
+  "cards": [
+    { "id": "pl-ff-uroda", "front": "uroda", "back": "красота", "gender": "f", "example": "Ona ma niezwykłą urodę.", "exampleTr": "У неё необыкновенная красота.", "note": "Не «урод». Урод — brzydal.", "tags": ["fałszywy przyjaciel"] },
+    { "id": "pl-ff-dywan", "front": "dywan", "back": "ковёр", "gender": "m", "example": "Kot śpi na dywanie.", "exampleTr": "Кот спит на ковре.", "note": "Диван — kanapa.", "tags": ["fałszywy przyjaciel"] },
+    { "id": "pl-ff-sklep", "front": "sklep", "back": "магазин", "gender": "m", "example": "Idę do sklepu po mleko.", "exampleTr": "Иду в магазин за молоком.", "note": "Склеп — grobowiec.", "tags": ["fałszywy przyjaciel"] },
+    { "id": "pl-ff-zakaz", "front": "zakaz", "back": "запрет", "gender": "m", "example": "Zakaz palenia.", "exampleTr": "Курить запрещено.", "note": "Заказ — zamówienie.", "tags": ["fałszywy przyjaciel"] },
+    { "id": "pl-ff-owoce", "front": "owoce", "back": "фрукты", "gender": "pl", "example": "Jem dużo owoców.", "exampleTr": "Я ем много фруктов.", "note": "Овощи — warzywa.", "tags": ["fałszywy przyjaciel"] },
+    { "id": "pl-ff-pytac", "front": "pytać", "back": "спрашивать", "example": "Zapytaj nauczyciela.", "exampleTr": "Спроси учителя.", "note": "Пытать — torturować.", "tags": ["fałszywy przyjaciel", "czasownik"] },
+    { "id": "pl-ff-list", "front": "list", "back": "письмо", "gender": "m", "example": "Dostałem list z urzędu.", "exampleTr": "Я получил письмо из ведомства.", "note": "Лист — liść (дерева) или kartka (бумаги).", "tags": ["fałszywy przyjaciel"] },
+    { "id": "pl-ff-dworzec", "front": "dworzec", "back": "вокзал", "gender": "m", "example": "Pociąg odjeżdża z Dworca Centralnego.", "exampleTr": "Поезд отправляется с Центрального вокзала.", "note": "Дворец — pałac.", "tags": ["fałszywy przyjaciel"] },
+    { "id": "pl-ff-miasto", "front": "miasto", "back": "город", "gender": "n", "example": "Warszawa to duże miasto.", "exampleTr": "Варшава — большой город.", "note": "Место — miejsce.", "tags": ["fałszywy przyjaciel"] },
+    { "id": "pl-ff-zawod", "front": "zawód", "back": "профессия; разочарование", "gender": "m", "example": "Z zawodu jestem programistą.", "exampleTr": "По профессии я программист.", "note": "Завод — fabryka, zakład.", "tags": ["fałszywy przyjaciel"] },
+    { "id": "pl-ff-pokoj", "front": "pokój", "back": "комната; мир", "gender": "m", "example": "Mieszkanie ma trzy pokoje.", "exampleTr": "В квартире три комнаты.", "note": "Покой — spokój.", "tags": ["fałszywy przyjaciel"] },
+    { "id": "pl-ff-zdanie", "front": "zdanie", "back": "предложение; мнение", "gender": "n", "example": "Moim zdaniem to dobry pomysł.", "exampleTr": "По-моему, это хорошая идея.", "note": "Здание — budynek.", "tags": ["fałszywy przyjaciel"] }
+  ]
+}

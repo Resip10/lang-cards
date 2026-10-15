@@ -1,0 +1,59 @@
+{
+  "version": "994f8b3dcf",
+  "languages": [
+    {
+      "code": "pl",
+      "name": "Polski",
+      "flag": "🇵🇱",
+      "tts": "pl-PL",
+      "chars": "ąćęłńóśźż",
+      "order": 1,
+      "total": 30,
+      "tree": [
+        {
+          "kind": "group",
+          "id": "pl/gramatyka",
+          "name": "Грамматика",
+          "order": 1,
+          "children": [
+            {
+              "kind": "deck",
+              "id": "pl/gramatyka/aspekty",
+              "file": "decks/pl/gramatyka/aspekty.json",
+              "name": "Видовые пары глаголов",
+              "order": 1,
+              "count": 10,
+              "hash": "24059bdf67"
+            },
+            {
+              "kind": "deck",
+              "id": "pl/gramatyka/rzad",
+              "file": "decks/pl/gramatyka/rzad.json",
+              "name": "Управление глаголов",
+              "order": 2,
+              "count": 8,
+              "hash": "42f33725a4"
+            }
+          ]
+        },
+        {
+          "kind": "group",
+          "id": "pl/leksyka",
+          "name": "Лексика",
+          "order": 2,
+          "children": [
+            {
+              "kind": "deck",
+              "id": "pl/leksyka/falszywi-przyjaciele",
+              "file": "decks/pl/leksyka/falszywi-przyjaciele.json",
+              "name": "Ложные друзья",
+              "order": 1,
+              "count": 12,
+              "hash": "0289000226"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

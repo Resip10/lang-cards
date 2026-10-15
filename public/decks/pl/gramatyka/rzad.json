@@ -1,0 +1,14 @@
+{
+  "name": "Управление глаголов",
+  "order": 2,
+  "cards": [
+    { "id": "pl-rzad-czekac", "front": "czekać na + B.", "back": "ждать кого / что", "audio": "czekać na", "answers": ["czekać na"], "example": "Czekam na autobus.", "exampleTr": "Я жду автобус.", "note": "В русском без предлога: ждать автобус.", "tags": ["rząd"] },
+    { "id": "pl-rzad-bac", "front": "bać się + D.", "back": "бояться кого / чего", "audio": "bać się", "answers": ["bać się"], "example": "Boję się pająków.", "exampleTr": "Я боюсь пауков.", "tags": ["rząd"] },
+    { "id": "pl-rzad-dziekowac", "front": "dziękować za + B.", "back": "благодарить за что", "audio": "dziękować za", "answers": ["dziękować za"], "example": "Dziękuję za pomoc.", "exampleTr": "Спасибо за помощь.", "tags": ["rząd"] },
+    { "id": "pl-rzad-interesowac", "front": "interesować się + N.", "back": "интересоваться чем", "audio": "interesować się", "answers": ["interesować się"], "example": "Interesuję się historią.", "exampleTr": "Я интересуюсь историей.", "tags": ["rząd"] },
+    { "id": "pl-rzad-uczyc", "front": "uczyć się + D.", "back": "учить что, учиться чему", "audio": "uczyć się", "answers": ["uczyć się"], "example": "Uczę się polskiego.", "exampleTr": "Я учу польский.", "note": "Dopełniacz, а не biernik: polskiego, не polski.", "tags": ["rząd"] },
+    { "id": "pl-rzad-pomagac", "front": "pomagać + C.", "back": "помогать кому", "audio": "pomagać", "answers": ["pomagać"], "example": "Pomagam mamie w kuchni.", "exampleTr": "Я помогаю маме на кухне.", "tags": ["rząd"] },
+    { "id": "pl-rzad-szukac", "front": "szukać + D.", "back": "искать кого / что", "audio": "szukać", "answers": ["szukać"], "example": "Szukam mieszkania.", "exampleTr": "Я ищу квартиру.", "note": "В русском винительный, в польском родительный.", "tags": ["rząd"] },
+    { "id": "pl-rzad-potrzebowac", "front": "potrzebować + D.", "back": "нуждаться в чём, нужно", "audio": "potrzebować", "answers": ["potrzebować"], "example": "Potrzebuję twojej rady.", "exampleTr": "Мне нужен твой совет.", "tags": ["rząd"] }
+  ]
+}

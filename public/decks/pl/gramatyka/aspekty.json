@@ -1,0 +1,119 @@
+{
+  "name": "Видовые пары глаголов",
+  "order": 1,
+  "cards": [
+    {
+      "id": "pl-asp-robic",
+      "front": "robić / zrobić",
+      "back": "делать / сделать",
+      "hint": "ndk / dk",
+      "example": "Co zrobisz w weekend?",
+      "exampleTr": "Что ты сделаешь на выходных?",
+      "tags": [
+        "czasownik"
+      ]
+    },
+    {
+      "id": "pl-asp-mowic",
+      "front": "mówić / powiedzieć",
+      "back": "говорить / сказать",
+      "hint": "ndk / dk",
+      "example": "Powiedz mi prawdę.",
+      "exampleTr": "Скажи мне правду.",
+      "note": "Совершенный вид от другого корня, как «говорить — сказать».",
+      "tags": [
+        "czasownik"
+      ]
+    },
+    {
+      "id": "pl-asp-brac",
+      "front": "brać / wziąć",
+      "back": "брать / взять",
+      "hint": "ndk / dk",
+      "example": "Wezmę parasol, bo pada.",
+      "exampleTr": "Возьму зонт, потому что идёт дождь.",
+      "tags": [
+        "czasownik"
+      ]
+    },
+    {
+      "id": "pl-asp-kupowac",
+      "front": "kupować / kupić",
+      "back": "покупать / купить",
+      "hint": "ndk / dk",
+      "example": "Zawsze kupuję chleb w tej piekarni.",
+      "exampleTr": "Я всегда покупаю хлеб в этой пекарне.",
+      "tags": [
+        "czasownik"
+      ]
+    },
+    {
+      "id": "pl-asp-ogladac",
+      "front": "oglądać / obejrzeć",
+      "back": "смотреть / посмотреть",
+      "hint": "ndk / dk",
+      "example": "Obejrzeliśmy ten film wczoraj.",
+      "exampleTr": "Мы посмотрели этот фильм вчера.",
+      "tags": [
+        "czasownik"
+      ]
+    },
+    {
+      "id": "pl-asp-wracac",
+      "front": "wracać / wrócić",
+      "back": "возвращаться / вернуться",
+      "hint": "ndk / dk",
+      "example": "Kiedy wrócisz do domu?",
+      "exampleTr": "Когда ты вернёшься домой?",
+      "note": "Без «się», в отличие от русского.",
+      "tags": [
+        "czasownik"
+      ]
+    },
+    {
+      "id": "pl-asp-zapominac",
+      "front": "zapominać / zapomnieć",
+      "back": "забывать / забыть",
+      "hint": "ndk / dk",
+      "example": "Zapomniałem kluczy.",
+      "exampleTr": "Я забыл ключи.",
+      "note": "zapomnieć + D. (kogo? czego?)",
+      "tags": [
+        "czasownik"
+      ]
+    },
+    {
+      "id": "pl-asp-pomagac",
+      "front": "pomagać / pomóc",
+      "back": "помогать / помочь",
+      "hint": "ndk / dk",
+      "example": "Czy możesz mi pomóc?",
+      "exampleTr": "Можешь мне помочь?",
+      "tags": [
+        "czasownik"
+      ]
+    },
+    {
+      "id": "pl-asp-otwierac",
+      "front": "otwierać / otworzyć",
+      "back": "открывать / открыть",
+      "hint": "ndk / dk",
+      "example": "Otwórz okno, proszę.",
+      "exampleTr": "Открой окно, пожалуйста.",
+      "tags": [
+        "czasownik"
+      ]
+    },
+    {
+      "id": "pl-asp-spotykac",
+      "front": "spotykać / spotkać",
+      "back": "встречать / встретить",
+      "hint": "ndk / dk",
+      "example": "Spotkałam go na dworcu.",
+      "exampleTr": "Я встретила его на вокзале.",
+      "tags": [
+        "czasownik"
+      ]
+    }
+  ]
+}
