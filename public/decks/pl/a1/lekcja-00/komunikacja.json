@@ -1,12 +1,29 @@
 {
-  "name": "Komunikacja na lekcji",
+  "name": "Komunikacja na lekcji i słowa",
   "order": 2,
   "cards": [
-    { "id": "pl-l00-nic-nie-szkodzi", "front": "Nic nie szkodzi.", "back": "Ничего страшного.", "example": "— Przepraszam. — Nic nie szkodzi.", "exampleTr": "— Извините. — Ничего страшного.", "note": "Ответ на извинение. Не «ничего не вредит».", "tags": ["komunikacja"] },
-    { "id": "pl-l00-prosze-powtorzyc", "front": "Proszę powtórzyć!", "back": "Повторите, пожалуйста!", "note": "Вежливая просьба: proszę + инфинитив.", "tags": ["komunikacja"] },
-    { "id": "pl-l00-prosze-mowic-wolniej", "front": "Proszę mówić wolniej!", "back": "Говорите, пожалуйста, медленнее!", "tags": ["komunikacja"] },
-    { "id": "pl-l00-jak-jest-po-polsku", "front": "Jak jest po polsku…?", "back": "Как по-польски…?", "answers": ["Jak jest po polsku"], "audio": "Jak jest po polsku?", "tags": ["komunikacja"] },
-    { "id": "pl-l00-lektor", "front": "lektor", "back": "преподаватель (иностранного языка)", "gender": "m", "hint": "ż. lektorka", "note": "Не «лектор» в вузе, а преподаватель языка на курсах; также диктор, озвучка фильма.", "tags": ["fałszywi przyjaciele"] },
-    { "id": "pl-l00-lektorka", "front": "lektorka", "back": "преподавательница (иностранного языка)", "gender": "f", "tags": ["fałszywi przyjaciele"] }
+    {"id": "pl-l00-nic-nie-szkodzi", "front": "Nic nie szkodzi.", "back": "Ничего страшного.", "example": "— Przepraszam. — Nic nie szkodzi.", "exampleTr": "— Извините. — Ничего страшного.", "note": "Ответ на извинение. Не «ничего не вредит».", "tags": ["komunikacja"]},
+    {"id": "pl-l00-prosze-powtorzyc", "front": "Proszę powtórzyć!", "back": "Повторите, пожалуйста!", "note": "Вежливая просьба: proszę + инфинитив.", "tags": ["komunikacja"]},
+    {"id": "pl-l00-prosze-mowic-wolniej", "front": "Proszę mówić wolniej!", "back": "Говорите, пожалуйста, медленнее!", "tags": ["komunikacja"]},
+    {"id": "pl-l00-jak-jest-po-polsku", "front": "Jak jest po polsku…?", "back": "Как по-польски…?", "answers": ["Jak jest po polsku"], "audio": "Jak jest po polsku?", "tags": ["komunikacja"]},
+    {"id": "pl-l00-lektor", "front": "lektor", "back": "преподаватель (иностранного языка)", "gender": "m", "hint": "ż. lektorka", "note": "Не «лектор» в вузе, а преподаватель языка на курсах; также диктор, озвучка фильма.", "tags": ["fałszywi przyjaciele"]},
+    {"id": "pl-l00-lektorka", "front": "lektorka", "back": "преподавательница (иностранного языка)", "gender": "f", "tags": ["fałszywi przyjaciele"]},
+    {"id": "pl-l00-prosze", "front": "Proszę.", "back": "Пожалуйста.", "note": "И «пожалуйста» (просьба, ответ на спасибо), и «вот, держите», и «да?» при ответе на звонок.", "tags": ["komunikacja"]},
+    {"id": "pl-l00-dziekuje", "front": "Dziękuję.", "back": "Спасибо.", "example": "— Dziękuję. — Proszę.", "exampleTr": "— Спасибо. — Пожалуйста.", "tags": ["komunikacja"]},
+    {"id": "pl-l00-przepraszam", "front": "Przepraszam.", "back": "Извините.", "example": "Przepraszam, gdzie jest toaleta?", "exampleTr": "Извините, где туалет?", "tags": ["komunikacja"]},
+    {"id": "pl-l00-prosze-przeczytac", "front": "Proszę przeczytać!", "back": "Прочитайте, пожалуйста!", "tags": ["komunikacja"]},
+    {"id": "pl-l00-prosze-napisac", "front": "Proszę napisać!", "back": "Напишите, пожалуйста!", "tags": ["komunikacja"]},
+    {"id": "pl-l00-nie-rozumiem", "front": "Nie rozumiem.", "back": "Я не понимаю.", "tags": ["komunikacja"]},
+    {"id": "pl-l00-nie-wiem", "front": "Nie wiem.", "back": "Я не знаю.", "tags": ["komunikacja"]},
+    {"id": "pl-l00-mam-pytanie", "front": "Mam pytanie.", "back": "У меня есть вопрос.", "note": "Польский говорит «я имею»: mam pytanie — у меня вопрос.", "tags": ["komunikacja"]},
+    {"id": "pl-l00-co-to-znaczy", "front": "Co to znaczy?", "back": "Что это значит?", "tags": ["komunikacja"]},
+    {"id": "pl-l00-gdzie-jest", "front": "Gdzie jest…?", "back": "Где (находится)…?", "answers": ["Gdzie jest"], "audio": "Gdzie jest?", "example": "Gdzie jest toaleta?", "exampleTr": "Где туалет?", "tags": ["komunikacja"]},
+    {"id": "pl-l00-pytanie", "front": "pytanie", "back": "вопрос", "gender": "n", "example": "Mam pytanie.", "exampleTr": "У меня вопрос.", "tags": ["słowa"]},
+    {"id": "pl-l00-slowo", "front": "słowo", "back": "слово", "gender": "n", "hint": "lm. słowa", "tags": ["słowa"]},
+    {"id": "pl-l00-nauczyciel", "front": "nauczyciel", "back": "учитель", "gender": "m", "hint": "ż. nauczycielka", "tags": ["słowa"]},
+    {"id": "pl-l00-student", "front": "student", "back": "студент", "gender": "m", "tags": ["słowa"]},
+    {"id": "pl-l00-studentka", "front": "studentka", "back": "студентка", "gender": "f", "tags": ["słowa"]},
+    {"id": "pl-l00-rzeka", "front": "rzeka", "back": "река", "gender": "f", "tags": ["słowa"]},
+    {"id": "pl-l00-dzien", "front": "dzień", "back": "день", "gender": "m", "hint": "lm. dni", "example": "Dzień dobry!", "exampleTr": "Добрый день! / Здравствуйте!", "tags": ["słowa"]}
   ]
 }

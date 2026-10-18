@@ -1,5 +1,5 @@
 {
-  "version": "b857d28f43",
+  "version": "7b737f3590",
   "languages": [
     {
       "code": "pl",
@@ -8,7 +8,7 @@
       "tts": "pl-PL",
       "chars": "ąćęłńóśźż",
       "order": 1,
-      "total": 63,
+      "total": 80,
       "tree": [
         {
           "kind": "group",
@@ -78,10 +78,10 @@
                   "kind": "deck",
                   "id": "pl/a1/lekcja-00/komunikacja",
                   "file": "decks/pl/a1/lekcja-00/komunikacja.json",
-                  "name": "Komunikacja na lekcji",
+                  "name": "Komunikacja na lekcji i słowa",
                   "order": 2,
-                  "count": 6,
-                  "hash": "6ed336db11"
+                  "count": 23,
+                  "hash": "65a07bfb3d"
                 }
               ]
             }
