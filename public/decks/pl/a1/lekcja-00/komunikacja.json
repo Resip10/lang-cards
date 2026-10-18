@@ -1,0 +1,12 @@
+{
+  "name": "Komunikacja na lekcji",
+  "order": 2,
+  "cards": [
+    { "id": "pl-l00-nic-nie-szkodzi", "front": "Nic nie szkodzi.", "back": "Ничего страшного.", "example": "— Przepraszam. — Nic nie szkodzi.", "exampleTr": "— Извините. — Ничего страшного.", "note": "Ответ на извинение. Не «ничего не вредит».", "tags": ["komunikacja"] },
+    { "id": "pl-l00-prosze-powtorzyc", "front": "Proszę powtórzyć!", "back": "Повторите, пожалуйста!", "note": "Вежливая просьба: proszę + инфинитив.", "tags": ["komunikacja"] },
+    { "id": "pl-l00-prosze-mowic-wolniej", "front": "Proszę mówić wolniej!", "back": "Говорите, пожалуйста, медленнее!", "tags": ["komunikacja"] },
+    { "id": "pl-l00-jak-jest-po-polsku", "front": "Jak jest po polsku…?", "back": "Как по-польски…?", "answers": ["Jak jest po polsku"], "audio": "Jak jest po polsku?", "tags": ["komunikacja"] },
+    { "id": "pl-l00-lektor", "front": "lektor", "back": "преподаватель (иностранного языка)", "gender": "m", "hint": "ż. lektorka", "note": "Не «лектор» в вузе, а преподаватель языка на курсах; также диктор, озвучка фильма.", "tags": ["fałszywi przyjaciele"] },
+    { "id": "pl-l00-lektorka", "front": "lektorka", "back": "преподавательница (иностранного языка)", "gender": "f", "tags": ["fałszywi przyjaciele"] }
+  ]
+}

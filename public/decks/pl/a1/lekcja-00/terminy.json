@@ -1,0 +1,33 @@
+{
+  "name": "Gramatyka po polsku: термины",
+  "order": 1,
+  "cards": [
+    { "id": "pl-l00-samogloska", "front": "samogłoska", "back": "гласная", "gender": "f", "hint": "vocalis", "tags": ["terminy"] },
+    { "id": "pl-l00-spolgloska", "front": "spółgłoska", "back": "согласная", "gender": "f", "hint": "consonantis", "tags": ["terminy"] },
+    { "id": "pl-l00-wymowa", "front": "wymowa", "back": "произношение", "gender": "f", "tags": ["terminy"] },
+    { "id": "pl-l00-liczba-pojedyncza", "front": "liczba pojedyncza", "back": "единственное число", "hint": "singularis", "tags": ["terminy"] },
+    { "id": "pl-l00-liczba-mnoga", "front": "liczba mnoga", "back": "множественное число", "hint": "pluralis", "tags": ["terminy"] },
+    { "id": "pl-l00-rodzaj-meski", "front": "rodzaj męski", "back": "мужской род", "hint": "masculinum", "tags": ["terminy"] },
+    { "id": "pl-l00-rodzaj-zenski", "front": "rodzaj żeński", "back": "женский род", "hint": "femininum", "tags": ["terminy"] },
+    { "id": "pl-l00-rodzaj-nijaki", "front": "rodzaj nijaki", "back": "средний род", "hint": "neutrum", "tags": ["terminy"] },
+    { "id": "pl-l00-czasownik", "front": "czasownik", "back": "глагол", "gender": "m", "hint": "verbum", "tags": ["terminy"] },
+    { "id": "pl-l00-bezokolicznik", "front": "bezokolicznik", "back": "инфинитив, неопределённая форма", "gender": "m", "hint": "infinitivus", "tags": ["terminy"] },
+    { "id": "pl-l00-rzeczownik", "front": "rzeczownik", "back": "существительное", "gender": "m", "hint": "substantivum", "tags": ["terminy"] },
+    { "id": "pl-l00-przymiotnik", "front": "przymiotnik", "back": "прилагательное", "gender": "m", "hint": "adiectivum", "tags": ["terminy"] },
+    { "id": "pl-l00-przyslowek", "front": "przysłówek", "back": "наречие", "gender": "m", "hint": "adverbium", "tags": ["terminy"] },
+    { "id": "pl-l00-zaimek", "front": "zaimek", "back": "местоимение", "gender": "m", "hint": "pronomen", "tags": ["terminy"] },
+    { "id": "pl-l00-przyimek", "front": "przyimek", "back": "предлог", "gender": "m", "hint": "praepositio", "note": "Не путать: przyimek — предлог, zaimek — местоимение, przysłówek — наречие.", "tags": ["terminy"] },
+    { "id": "pl-l00-liczebnik", "front": "liczebnik", "back": "числительное", "gender": "m", "hint": "numerale", "tags": ["terminy"] },
+    { "id": "pl-l00-przypadek", "front": "przypadek", "back": "падеж", "gender": "m", "hint": "casus", "note": "Также «случай»: przez przypadek — случайно.", "tags": ["terminy", "przypadki"] },
+    { "id": "pl-l00-mianownik", "front": "mianownik", "back": "именительный падеж", "gender": "m", "hint": "nominativus · M.", "tags": ["terminy", "przypadki"] },
+    { "id": "pl-l00-dopelniacz", "front": "dopełniacz", "back": "родительный падеж", "gender": "m", "hint": "genetivus · D.", "note": "Сокращение D. — это dopełniacz (родительный), а не дательный!", "tags": ["terminy", "przypadki"] },
+    { "id": "pl-l00-celownik", "front": "celownik", "back": "дательный падеж", "gender": "m", "hint": "dativus · C.", "tags": ["terminy", "przypadki"] },
+    { "id": "pl-l00-biernik", "front": "biernik", "back": "винительный падеж", "gender": "m", "hint": "accusativus · B.", "tags": ["terminy", "przypadki"] },
+    { "id": "pl-l00-narzednik", "front": "narzędnik", "back": "творительный падеж", "gender": "m", "hint": "instrumentalis · N.", "tags": ["terminy", "przypadki"] },
+    { "id": "pl-l00-miejscownik", "front": "miejscownik", "back": "предложный падеж", "gender": "m", "hint": "locativus · Ms.", "note": "Буквально «местный»: в польском всегда с предлогом (o, w, na, przy, po).", "tags": ["terminy", "przypadki"] },
+    { "id": "pl-l00-wolacz", "front": "wołacz", "back": "звательный падеж", "gender": "m", "hint": "vocativus · W.", "note": "В русском почти исчез, в польском живой: Panie Janie! Mamo!", "tags": ["terminy", "przypadki"] },
+    { "id": "pl-l00-czas-przeszly", "front": "czas przeszły", "back": "прошедшее время", "hint": "perfectum", "tags": ["terminy"] },
+    { "id": "pl-l00-czas-terazniejszy", "front": "czas teraźniejszy", "back": "настоящее время", "hint": "praesens", "tags": ["terminy"] },
+    { "id": "pl-l00-czas-przyszly", "front": "czas przyszły", "back": "будущее время", "hint": "futurum", "tags": ["terminy"] }
+  ]
+}
