@@ -1,5 +1,5 @@
 {
-  "version": "994f8b3dcf",
+  "version": "b857d28f43",
   "languages": [
     {
       "code": "pl",
@@ -8,7 +8,7 @@
       "tts": "pl-PL",
       "chars": "ąćęłńóśźż",
       "order": 1,
-      "total": 30,
+      "total": 63,
       "tree": [
         {
           "kind": "group",
@@ -50,6 +50,40 @@
               "order": 1,
               "count": 12,
               "hash": "0289000226"
+            }
+          ]
+        },
+        {
+          "kind": "group",
+          "id": "pl/a1",
+          "name": "A1",
+          "order": 3,
+          "children": [
+            {
+              "kind": "group",
+              "id": "pl/a1/lekcja-00",
+              "name": "Lekcja 0",
+              "order": 0,
+              "children": [
+                {
+                  "kind": "deck",
+                  "id": "pl/a1/lekcja-00/terminy",
+                  "file": "decks/pl/a1/lekcja-00/terminy.json",
+                  "name": "Gramatyka po polsku: термины",
+                  "order": 1,
+                  "count": 27,
+                  "hash": "8d52006e4e"
+                },
+                {
+                  "kind": "deck",
+                  "id": "pl/a1/lekcja-00/komunikacja",
+                  "file": "decks/pl/a1/lekcja-00/komunikacja.json",
+                  "name": "Komunikacja na lekcji",
+                  "order": 2,
+                  "count": 6,
+                  "hash": "6ed336db11"
+                }
+              ]
             }
           ]
         }
