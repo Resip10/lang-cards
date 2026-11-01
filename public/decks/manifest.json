@@ -1,5 +1,5 @@
 {
-  "version": "7b737f3590",
+  "version": "fa14b7386d",
   "languages": [
     {
       "code": "pl",
@@ -8,7 +8,7 @@
       "tts": "pl-PL",
       "chars": "ąćęłńóśźż",
       "order": 1,
-      "total": 80,
+      "total": 203,
       "tree": [
         {
           "kind": "group",
@@ -82,6 +82,41 @@
                   "order": 2,
                   "count": 23,
                   "hash": "65a07bfb3d"
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "id": "pl/a1/lekcja-01",
+              "name": "Lekcja 1: Jak masz na imię?",
+              "order": 1,
+              "children": [
+                {
+                  "kind": "deck",
+                  "id": "pl/a1/lekcja-01/przedstawianie",
+                  "file": "decks/pl/a1/lekcja-01/przedstawianie.json",
+                  "name": "Przedstawianie się i samopoczucie",
+                  "order": 1,
+                  "count": 42,
+                  "hash": "2f016984d3"
+                },
+                {
+                  "kind": "deck",
+                  "id": "pl/a1/lekcja-01/slownictwo",
+                  "file": "decks/pl/a1/lekcja-01/slownictwo.json",
+                  "name": "Adres, liczebniki, skąd jesteś?",
+                  "order": 2,
+                  "count": 55,
+                  "hash": "79bdada240"
+                },
+                {
+                  "kind": "deck",
+                  "id": "pl/a1/lekcja-01/gramatyka",
+                  "file": "decks/pl/a1/lekcja-01/gramatyka.json",
+                  "name": "Być, mieć, mieszkać",
+                  "order": 3,
+                  "count": 26,
+                  "hash": "2d0833e690"
                 }
               ]
             }

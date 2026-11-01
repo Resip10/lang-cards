@@ -1,0 +1,32 @@
+{
+  "name": "Być, mieć, mieszkać",
+  "order": 3,
+  "cards": [
+    {"id": "pl-l01-byc", "front": "być", "back": "быть", "hint": "jestem, jesteś, jest", "note": "В отличие от русского, связку нельзя пропустить: Jestem z Polski — «я (есть) из Польши».", "tags": ["gramatyka"]},
+    {"id": "pl-l01-miec", "front": "mieć", "back": "иметь", "hint": "mam, masz, ma", "note": "Где по-русски «у меня есть», по-польски «mam»: Mam telefon.", "tags": ["gramatyka"]},
+    {"id": "pl-l01-mieszkac", "front": "mieszkać", "back": "жить (проживать)", "hint": "mieszkam, mieszkasz, mieszka", "tags": ["gramatyka"]},
+    {"id": "pl-l01-nazywac-sie", "front": "nazywać się", "back": "называться; иметь фамилию", "hint": "nazywam się, nazywasz się, nazywa się", "tags": ["gramatyka"]},
+    {"id": "pl-l01-zaimek-osobowy", "front": "zaimek osobowy", "back": "личное местоимение", "gender": "m", "hint": "ja, ty, on, ona, ono…", "tags": ["gramatyka"]},
+    {"id": "pl-l01-ono", "front": "ono", "back": "оно", "tags": ["gramatyka"]},
+    {"id": "pl-l01-oni", "front": "oni", "back": "они (есть мужчины)", "note": "Хотя бы один мужчина в группе: Andrzej, Marta i Maria — oni.", "tags": ["gramatyka"]},
+    {"id": "pl-l01-one", "front": "one", "back": "они (без мужчин)", "note": "Только женщины, дети, предметы, животные: Marta i Maria — one.", "tags": ["gramatyka"]},
+    {"id": "pl-l01-byc-ja", "front": "jestem", "back": "быть: я", "hint": "być · ja", "example": "Jestem z Rosji.", "exampleTr": "Я из России.", "tags": ["gramatyka", "być"]},
+    {"id": "pl-l01-byc-ty", "front": "jesteś", "back": "быть: ты", "hint": "być · ty", "example": "Skąd jesteś?", "exampleTr": "Откуда ты?", "tags": ["gramatyka", "być"]},
+    {"id": "pl-l01-byc-on", "front": "jest", "back": "быть: он / она / оно", "hint": "być · on / ona / ono", "example": "Ona jest z Włoch.", "exampleTr": "Она из Италии.", "tags": ["gramatyka", "być"], "note": "Та же форма с pan / pani: Skąd pan jest? Gdzie pani mieszka?"},
+    {"id": "pl-l01-byc-my", "front": "jesteśmy", "back": "быть: мы", "hint": "być · my", "example": "Jesteśmy z Hiszpanii.", "exampleTr": "Мы из Испании.", "tags": ["gramatyka", "być"]},
+    {"id": "pl-l01-byc-wy", "front": "jesteście", "back": "быть: вы", "hint": "być · wy", "example": "Skąd jesteście?", "exampleTr": "Откуда вы?", "tags": ["gramatyka", "być"]},
+    {"id": "pl-l01-byc-oni", "front": "są", "back": "быть: они", "hint": "być · oni / one", "example": "One są z Niemiec.", "exampleTr": "Они из Германии.", "tags": ["gramatyka", "być"], "note": "Также państwo są: Skąd państwo są?"},
+    {"id": "pl-l01-miec-ja", "front": "mam", "back": "иметь: я", "hint": "mieć · ja", "example": "Mam na imię Andrzej.", "exampleTr": "Меня зовут Анджей.", "tags": ["gramatyka", "mieć"]},
+    {"id": "pl-l01-miec-ty", "front": "masz", "back": "иметь: ты", "hint": "mieć · ty", "example": "Jak masz na imię?", "exampleTr": "Как тебя зовут?", "tags": ["gramatyka", "mieć"]},
+    {"id": "pl-l01-miec-on", "front": "ma", "back": "иметь: он / она / оно", "hint": "mieć · on / ona / ono", "example": "On ma pytanie.", "exampleTr": "У него вопрос.", "tags": ["gramatyka", "mieć"], "note": "Та же форма с pan / pani: Skąd pan jest? Gdzie pani mieszka?"},
+    {"id": "pl-l01-miec-my", "front": "mamy", "back": "иметь: мы", "hint": "mieć · my", "example": "Mamy dom w Krakowie.", "exampleTr": "У нас дом в Кракове.", "tags": ["gramatyka", "mieć"]},
+    {"id": "pl-l01-miec-wy", "front": "macie", "back": "иметь: вы", "hint": "mieć · wy", "example": "Czy macie nowe auto?", "exampleTr": "У вас новая машина?", "tags": ["gramatyka", "mieć"]},
+    {"id": "pl-l01-miec-oni", "front": "mają", "back": "иметь: они", "hint": "mieć · oni / one", "example": "Oni mają problem.", "exampleTr": "У них проблема.", "tags": ["gramatyka", "mieć"], "note": "Та же форма с pan / pani: Skąd pan jest? Gdzie pani mieszka?"},
+    {"id": "pl-l01-mieszkac-ja", "front": "mieszkam", "back": "жить: я", "hint": "mieszkać · ja", "example": "Mieszkam w Warszawie.", "exampleTr": "Я живу в Варшаве.", "tags": ["gramatyka", "mieszkać"]},
+    {"id": "pl-l01-mieszkac-ty", "front": "mieszkasz", "back": "жить: ты", "hint": "mieszkać · ty", "example": "Gdzie mieszkasz?", "exampleTr": "Где ты живёшь?", "tags": ["gramatyka", "mieszkać"]},
+    {"id": "pl-l01-mieszkac-on", "front": "mieszka", "back": "жить: он / она / оно", "hint": "mieszkać · on / ona / ono", "example": "Gdzie pani mieszka?", "exampleTr": "Где вы живёте?", "tags": ["gramatyka", "mieszkać"], "note": "Та же форма с pan / pani: Skąd pan jest? Gdzie pani mieszka?"},
+    {"id": "pl-l01-mieszkac-my", "front": "mieszkamy", "back": "жить: мы", "hint": "mieszkać · my", "example": "Mieszkamy w Poznaniu.", "exampleTr": "Мы живём в Познани.", "tags": ["gramatyka", "mieszkać"]},
+    {"id": "pl-l01-mieszkac-wy", "front": "mieszkacie", "back": "жить: вы", "hint": "mieszkać · wy", "example": "Czy mieszkacie w Łodzi?", "exampleTr": "Вы живёте в Лодзи?", "tags": ["gramatyka", "mieszkać"]},
+    {"id": "pl-l01-mieszkac-oni", "front": "mieszkają", "back": "жить: они", "hint": "mieszkać · oni / one", "example": "Oni mieszkają w Gdańsku.", "exampleTr": "Они живут в Гданьске.", "tags": ["gramatyka", "mieszkać"], "note": "Та же форма с pan / pani: Skąd pan jest? Gdzie pani mieszka?"}
+  ]
+}
