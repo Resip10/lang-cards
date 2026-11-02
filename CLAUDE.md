@@ -12,7 +12,8 @@ Ihar sends photos, screenshots, files or word lists. Turn them into cards, commi
 2. Check for duplicates: search existing `public/decks/<lang>/**` for the same `front`. Skip or merge, never duplicate.
 3. Write/extend the deck JSON (format below). Keep existing card `id`s unchanged — progress is keyed by id.
 4. `npm run build` must pass (it validates decks: missing fields, duplicate ids, bad JSON).
-5. Commit as the user (git author is already `Resip10 <resip810@gmail.com>`) and push to `main`.
+5. Commit as the user: first run `git config user.name "Resip10" && git config user.email "resip810@gmail.com"`
+   (cloud sessions default to Claude), then commit and push to `main`. Commits will show as Unverified — that is expected.
 6. Reply briefly: how many cards, which group.
 
 ## Layout
