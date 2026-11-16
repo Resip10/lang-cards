@@ -1,0 +1,312 @@
+{
+  "name": "Род существительного",
+  "summary": "Как по окончанию понять: m, f или n",
+  "order": 1,
+  "sections": [
+    {
+      "p": "Род в польском почти всегда виден по окончанию в **mianowniku** (кто? что?). Он нужен, чтобы согласовать прилагательное и ten / ta / to."
+    },
+    {
+      "table": {
+        "head": [
+          "",
+          "окончание",
+          "примеры"
+        ],
+        "rows": [
+          [
+            "**rodzaj męski** (m)",
+            "согласная (-ø)",
+            "dom, komputer, stół, kot"
+          ],
+          [
+            "",
+            "**-a** у мужчин",
+            "mężczyzna, kolega, dentysta, poeta"
+          ],
+          [
+            "**rodzaj żeński** (f)",
+            "**-a**",
+            "kawa, kobieta, książka"
+          ],
+          [
+            "",
+            "**-i** (редко)",
+            "pani"
+          ],
+          [
+            "**rodzaj nijaki** (n)",
+            "**-o**",
+            "okno, krzesło, mleko"
+          ],
+          [
+            "",
+            "**-e**",
+            "słońce"
+          ],
+          [
+            "",
+            "**-ę**",
+            "imię"
+          ],
+          [
+            "",
+            "**-um**",
+            "muzeum, centrum, gimnazjum"
+          ]
+        ]
+      }
+    },
+    {
+      "note": "Ловушки для русского: **kawa** — женский род (кофе у нас мужской), **dziecko** — средний (ребёнок у нас мужской). Слова на **-um** — средний род и в единственном числе не склоняются: w muzeum, w centrum."
+    },
+    {
+      "h": "Pluralia tantum"
+    },
+    {
+      "p": "Некоторые слова бывают только во множественном числе: **drzwi** (дверь), **okulary** (очки), **dżinsy** (джинсы). С ними говорят **to są**: To są drzwi."
+    },
+    {
+      "h": "To jest / To są"
+    },
+    {
+      "list": [
+        "**Co to jest?** — To jest książka. (что?)",
+        "**Kto to jest?** — To jest pani Maria. (кто?)",
+        "**Czy to jest stół?** — Tak, to jest stół. / Nie, to nie jest stół. To jest krzesło."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "q": "**fotografia**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 1,
+      "explain": "-a → женский."
+    },
+    {
+      "q": "**kot**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 0,
+      "explain": "Согласная на конце → мужской."
+    },
+    {
+      "q": "**książka**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 1,
+      "explain": "-a → женский."
+    },
+    {
+      "q": "**dentysta**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 0,
+      "explain": "Мужчина на -a → мужской: ten dentysta."
+    },
+    {
+      "q": "**centrum**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 2,
+      "explain": "-um → средний."
+    },
+    {
+      "q": "**dentystka**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 1,
+      "explain": "-a → женский."
+    },
+    {
+      "q": "**biuro**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 2,
+      "explain": "-o → средний."
+    },
+    {
+      "q": "**dziecko**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 2,
+      "explain": "-o → средний, хотя по-русски «ребёнок» — мужской."
+    },
+    {
+      "q": "**wino**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 2,
+      "explain": "-o → средний."
+    },
+    {
+      "q": "**gimnazjum**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 2,
+      "explain": "-um → средний."
+    },
+    {
+      "q": "**adres**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 0,
+      "explain": "Согласная → мужской."
+    },
+    {
+      "q": "**słońce**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 2,
+      "explain": "-e → средний."
+    },
+    {
+      "q": "**grupa**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 1,
+      "explain": "-a → женский."
+    },
+    {
+      "q": "**mężczyzna**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 0,
+      "explain": "Мужчина на -a → мужской: ten mężczyzna."
+    },
+    {
+      "q": "**pani**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 1,
+      "explain": "-i → женский."
+    },
+    {
+      "q": "**miasto**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 2,
+      "explain": "-o → средний."
+    },
+    {
+      "q": "**imię**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 2,
+      "explain": "-ę → средний."
+    },
+    {
+      "q": "**kawa**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 1,
+      "explain": "-a → женский: dobra kawa."
+    },
+    {
+      "q": "**samochód**",
+      "hint": "Какой род?",
+      "options": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": 0,
+      "explain": "Согласная → мужской."
+    },
+    {
+      "q": "Co to jest? (очки)",
+      "answers": [
+        "To są okulary"
+      ],
+      "explain": "okulary — только мн. число, поэтому **to są**."
+    },
+    {
+      "q": "Czy to są drzwi? — Tak, to ___ drzwi.",
+      "answers": [
+        "są"
+      ],
+      "explain": "drzwi — pluralia tantum: **to są drzwi**."
+    },
+    {
+      "q": "Czy to jest dom? — Nie, to ___ dom.",
+      "answers": [
+        "nie jest"
+      ],
+      "explain": "Отрицание: **to nie jest** …"
+    }
+  ]
+}

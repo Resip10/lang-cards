@@ -1,0 +1,32 @@
+{
+  "name": "Liczebniki 11–23, czasowniki, inne",
+  "order": 3,
+  "cards": [
+    {"id": "pl-l02-jedenascie", "front": "jedenaście", "back": "11", "tags": ["liczebniki"], "note": "-naście = «-надцать». Ловушки: czternaście (не *czteryn-), piętnaście (не *pięćn-), dziewiętnaście."},
+    {"id": "pl-l02-dwanascie", "front": "dwanaście", "back": "12", "tags": ["liczebniki"]},
+    {"id": "pl-l02-trzynascie", "front": "trzynaście", "back": "13", "tags": ["liczebniki"]},
+    {"id": "pl-l02-czternascie", "front": "czternaście", "back": "14", "tags": ["liczebniki"], "note": "Не «*czterynaście»."},
+    {"id": "pl-l02-pietnascie", "front": "piętnaście", "back": "15", "tags": ["liczebniki"], "note": "pięć → piętnaście (ć → t)."},
+    {"id": "pl-l02-szesnascie", "front": "szesnaście", "back": "16", "tags": ["liczebniki"], "note": "sześć → szesnaście (без ć)."},
+    {"id": "pl-l02-siedemnascie", "front": "siedemnaście", "back": "17", "tags": ["liczebniki"]},
+    {"id": "pl-l02-osiemnascie", "front": "osiemnaście", "back": "18", "tags": ["liczebniki"]},
+    {"id": "pl-l02-dziewietnascie", "front": "dziewiętnaście", "back": "19", "tags": ["liczebniki"], "note": "dziewięć → dziewiętnaście (ć → t)."},
+    {"id": "pl-l02-dwadziescia", "front": "dwadzieścia", "back": "20", "tags": ["liczebniki"]},
+    {"id": "pl-l02-dwadziescia-jeden", "front": "dwadzieścia jeden", "back": "21", "tags": ["liczebniki"]},
+    {"id": "pl-l02-dwadziescia-dwa", "front": "dwadzieścia dwa", "back": "22", "tags": ["liczebniki"]},
+    {"id": "pl-l02-dwadziescia-trzy", "front": "dwadzieścia trzy", "back": "23", "tags": ["liczebniki"]},
+    {"id": "pl-l02-rozumiec", "front": "rozumieć", "back": "понимать", "hint": "rozumiem, rozumiesz, rozumieją", "example": "Przepraszam, nie rozumiem.", "exampleTr": "Извините, я не понимаю.", "tags": ["czasowniki"]},
+    {"id": "pl-l02-przepraszac", "front": "przepraszać", "back": "извиняться", "hint": "przepraszam, przepraszasz, przepraszają", "example": "Bardzo przepraszamy.", "exampleTr": "Мы очень извиняемся.", "tags": ["czasowniki"]},
+    {"id": "pl-l02-czytac", "front": "czytać", "back": "читать", "hint": "czytam, czytasz, czytają", "example": "Czytam gazetę.", "exampleTr": "Я читаю газету.", "tags": ["czasowniki"]},
+    {"id": "pl-l02-wiedziec", "front": "wiedzieć", "back": "знать (факт)", "hint": "wiem, wiesz, wie, wiedzą", "note": "Неправильный глагол. Nie wiem — не знаю; Wiesz, gdzie to jest? — Знаешь, где это?", "example": "Nie wiesz?! To jest nowy profesor.", "exampleTr": "Ты не знаешь?! Это новый профессор.", "tags": ["czasowniki"]},
+    {"id": "pl-l02-studiowac", "front": "studiować", "back": "учиться (в вузе), изучать", "hint": "studiuję, studiujesz, studiują", "example": "— Co studiujesz? — Filozofię i architekturę.", "exampleTr": "— Что ты изучаешь? — Философию и архитектуру.", "note": "Спряжение на -uję, -ujesz (не -m, -sz).", "tags": ["czasowniki"]},
+    {"id": "pl-l02-bardzo", "front": "bardzo", "back": "очень", "example": "Bardzo elegancki!", "exampleTr": "Очень элегантный!", "tags": ["inne"]},
+    {"id": "pl-l02-tez", "front": "też", "back": "тоже", "example": "U mnie też.", "exampleTr": "У меня тоже.", "tags": ["inne"]},
+    {"id": "pl-l02-teraz", "front": "teraz", "back": "сейчас, теперь", "example": "Gdzie one teraz mieszkają?", "exampleTr": "Где они сейчас живут?", "tags": ["inne"]},
+    {"id": "pl-l02-dokad", "front": "Dokąd?", "back": "Куда?", "example": "— Proszę powtórzyć. Dokąd? — Do Krakowa.", "exampleTr": "— Повторите, пожалуйста. Куда? — В Краков.", "note": "Dokąd — куда, gdzie — где. После do — родительный: do Krakowa, do Warszawy.", "tags": ["inne"]},
+    {"id": "pl-l02-numer-kierunkowy", "front": "numer kierunkowy", "back": "телефонный код (города)", "example": "Jaki jest numer kierunkowy do Krakowa?", "exampleTr": "Какой телефонный код Кракова?", "tags": ["inne"]},
+    {"id": "pl-l02-wojewodztwo", "front": "województwo", "back": "воеводство (регион Польши)", "gender": "n", "note": "В Польше 16 воеводств, например mazowieckie (столица — Warszawa), małopolskie (Kraków).", "tags": ["inne"]},
+    {"id": "pl-l02-koncowka", "front": "końcówka", "back": "окончание (грам.)", "gender": "f", "tags": ["terminy"]},
+    {"id": "pl-l02-prawda-czy-nieprawda", "front": "Prawda czy nieprawda?", "back": "Правда или неправда?", "tags": ["inne"]}
+  ]
+}

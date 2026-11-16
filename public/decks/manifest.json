@@ -1,5 +1,5 @@
 {
-  "version": "fa14b7386d",
+  "version": "9e4ae07709",
   "languages": [
     {
       "code": "pl",
@@ -8,7 +8,7 @@
       "tts": "pl-PL",
       "chars": "ąćęłńóśźż",
       "order": 1,
-      "total": 203,
+      "total": 294,
       "tree": [
         {
           "kind": "group",
@@ -117,6 +117,99 @@
                   "order": 3,
                   "count": 26,
                   "hash": "2d0833e690"
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "id": "pl/a1/lekcja-02",
+              "name": "Lekcja 2: Mam pytanie. Co to jest?",
+              "order": 2,
+              "children": [
+                {
+                  "kind": "deck",
+                  "id": "pl/a1/lekcja-02/slownictwo",
+                  "file": "decks/pl/a1/lekcja-02/slownictwo.json",
+                  "name": "Co to jest? Kto to jest?",
+                  "order": 1,
+                  "count": 33,
+                  "hash": "d4e5e977e8"
+                },
+                {
+                  "kind": "deck",
+                  "id": "pl/a1/lekcja-02/opis-osoby",
+                  "file": "decks/pl/a1/lekcja-02/opis-osoby.json",
+                  "name": "Jaki on jest? Przymiotniki",
+                  "order": 2,
+                  "count": 32,
+                  "hash": "2b9a48b187"
+                },
+                {
+                  "kind": "deck",
+                  "id": "pl/a1/lekcja-02/inne",
+                  "file": "decks/pl/a1/lekcja-02/inne.json",
+                  "name": "Liczebniki 11–23, czasowniki, inne",
+                  "order": 3,
+                  "count": 26,
+                  "hash": "8890a578ce"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "kind": "group",
+          "id": "pl/a1",
+          "name": "A1",
+          "order": 3,
+          "children": [
+            {
+              "kind": "group",
+              "id": "pl/a1/lekcja-02",
+              "name": "Lekcja 2: Mam pytanie. Co to jest?",
+              "order": 2,
+              "children": [
+                {
+                  "kind": "rule",
+                  "id": "pl/a1/lekcja-02/rodzaj-rzeczownika",
+                  "file": "decks/pl/a1/lekcja-02/rodzaj-rzeczownika.rule.json",
+                  "name": "Род существительного",
+                  "summary": "Как по окончанию понять: m, f или n",
+                  "order": 1,
+                  "count": 22,
+                  "hash": "a4221b6405"
+                },
+                {
+                  "kind": "rule",
+                  "id": "pl/a1/lekcja-02/przymiotnik",
+                  "file": "decks/pl/a1/lekcja-02/przymiotnik.rule.json",
+                  "name": "Прилагательное: jaki? jaka? jakie?",
+                  "summary": "Окончания -y/-i, -a, -e/-ie по роду",
+                  "order": 2,
+                  "count": 20,
+                  "hash": "c93428068b"
+                },
+                {
+                  "kind": "rule",
+                  "id": "pl/a1/lekcja-02/koniugacja-m-sz",
+                  "file": "decks/pl/a1/lekcja-02/koniugacja-m-sz.rule.json",
+                  "name": "Спряжение -m, -sz",
+                  "summary": "mam, czytam, rozumiem, mieszkam…",
+                  "order": 3,
+                  "count": 16,
+                  "hash": "54cc5e6648"
+                },
+                {
+                  "kind": "rule",
+                  "id": "pl/a1/lekcja-02/pisownia-i-akcent",
+                  "file": "decks/pl/a1/lekcja-02/pisownia-i-akcent.rule.json",
+                  "name": "Польские буквы и ударение",
+                  "summary": "ą ę ć ś ź ż ó ł ń и ударение на предпоследний слог",
+                  "order": 4,
+                  "count": 14,
+                  "hash": "bba1660093"
                 }
               ]
             }

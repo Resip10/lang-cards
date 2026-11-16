@@ -1,0 +1,183 @@
+{
+  "name": "Польские буквы и ударение",
+  "summary": "ą ę ć ś ź ż ó ł ń и ударение на предпоследний слог",
+  "order": 4,
+  "sections": [
+    {
+      "h": "Буквы с диакритикой"
+    },
+    {
+      "table": {
+        "head": [
+          "как называют",
+          "буквы",
+          "пример"
+        ],
+        "rows": [
+          [
+            "**z ogonkiem** (с хвостиком)",
+            "ą, ę",
+            "proszę, dziękuję, są"
+          ],
+          [
+            "**z kreską** (с чёрточкой)",
+            "ć, ń, ó, ś, ź",
+            "mówić, dzień, Kraków, jesteś, źle"
+          ],
+          [
+            "**z kropką** (с точкой)",
+            "ż",
+            "mężczyzna, książka"
+          ],
+          [
+            "**ł** (перечёркнутое)",
+            "ł",
+            "słońce, stół, długopis"
+          ]
+        ]
+      }
+    },
+    {
+      "note": "Без диакритики — это ошибка, а не стиль: **sad** (сад) и **sąd** (суд) — разные слова."
+    },
+    {
+      "h": "Ударение"
+    },
+    {
+      "p": "В польском ударение почти всегда падает на **предпоследний слог**: in-te-li-**GEN**-tny, sym-pa-**TY**-czny, Ka-to-**WI**-ce. Оно не прыгает, как в русском: **WAR**-sza-wa? нет — War-**SZA**-wa."
+    }
+  ],
+  "exercises": [
+    {
+      "q": "prosze powtorzyc",
+      "hint": "Напиши с польскими буквами",
+      "answers": [
+        "proszę powtórzyć"
+      ],
+      "strict": true,
+      "explain": "ę — z ogonkiem, ó — z kreską."
+    },
+    {
+      "q": "dziekuje",
+      "hint": "Напиши с польскими буквами",
+      "answers": [
+        "dziękuję"
+      ],
+      "strict": true,
+      "explain": "Два ogonka: dzię-ku-ję."
+    },
+    {
+      "q": "panstwo",
+      "hint": "Напиши с польскими буквами",
+      "answers": [
+        "państwo"
+      ],
+      "strict": true,
+      "explain": "ń — z kreską."
+    },
+    {
+      "q": "slonce",
+      "hint": "Напиши с польскими буквами",
+      "answers": [
+        "słońce"
+      ],
+      "strict": true,
+      "explain": "ł и ń."
+    },
+    {
+      "q": "ksiazka",
+      "hint": "Напиши с польскими буквами",
+      "answers": [
+        "książka"
+      ],
+      "strict": true,
+      "explain": "ą — z ogonkiem, ż — z kropką."
+    },
+    {
+      "q": "samochod",
+      "hint": "Напиши с польскими буквами",
+      "answers": [
+        "samochód"
+      ],
+      "strict": true,
+      "explain": "ó — z kreską."
+    },
+    {
+      "q": "mezczyzna",
+      "hint": "Напиши с польскими буквами",
+      "answers": [
+        "mężczyzna"
+      ],
+      "strict": true,
+      "explain": "ę и ż."
+    },
+    {
+      "q": "ty jestes",
+      "hint": "Напиши с польскими буквами",
+      "answers": [
+        "ty jesteś"
+      ],
+      "strict": true,
+      "explain": "ś — z kreską."
+    },
+    {
+      "q": "krzeslo",
+      "hint": "Напиши с польскими буквами",
+      "answers": [
+        "krzesło"
+      ],
+      "strict": true,
+      "explain": "ł."
+    },
+    {
+      "q": "zle",
+      "hint": "Напиши с польскими буквами",
+      "answers": [
+        "źle"
+      ],
+      "strict": true,
+      "explain": "ź — z kreską."
+    },
+    {
+      "q": "Где ударение: **inteligentny**?",
+      "options": [
+        "IN-te-li-gen-tny",
+        "in-te-LI-gen-tny",
+        "in-te-li-GEN-tny",
+        "in-te-li-gen-TNY"
+      ],
+      "answer": 2,
+      "explain": "Предпоследний слог: in-te-li-**GEN**-tny."
+    },
+    {
+      "q": "Где ударение: **Warszawa**?",
+      "options": [
+        "WAR-sza-wa",
+        "war-SZA-wa",
+        "war-sza-WA"
+      ],
+      "answer": 1,
+      "explain": "Предпоследний слог: war-**SZA**-wa."
+    },
+    {
+      "q": "Где ударение: **sympatyczny**?",
+      "options": [
+        "SYM-pa-ty-czny",
+        "sym-PA-ty-czny",
+        "sym-pa-TY-czny"
+      ],
+      "answer": 2,
+      "explain": "sym-pa-**TY**-czny."
+    },
+    {
+      "q": "Где ударение: **optymistyczny**?",
+      "options": [
+        "op-ty-MI-sty-czny",
+        "op-ty-mi-STY-czny",
+        "OP-ty-mi-sty-czny"
+      ],
+      "answer": 1,
+      "explain": "op-ty-mi-**STY**-czny."
+    }
+  ]
+}

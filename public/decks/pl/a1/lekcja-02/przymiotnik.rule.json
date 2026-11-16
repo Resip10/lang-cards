@@ -1,0 +1,230 @@
+{
+  "name": "Прилагательное: jaki? jaka? jakie?",
+  "summary": "Окончания -y/-i, -a, -e/-ie по роду",
+  "order": 2,
+  "sections": [
+    {
+      "p": "Прилагательное согласуется с существительным в роде — как в русском (нов**ый**, нов**ая**, нов**ое**), только окончания короче."
+    },
+    {
+      "table": {
+        "head": [
+          "вопрос",
+          "m — jaki?",
+          "f — jaka?",
+          "n — jakie?"
+        ],
+        "rows": [
+          [
+            "обычно",
+            "**-y**: nowy, stary",
+            "**-a**: nowa, stara",
+            "**-e**: nowe, stare"
+          ],
+          [
+            "после **k, g**",
+            "**-i**: niski, drogi, polski",
+            "**-a**: niska, droga, polska",
+            "**-ie**: niskie, drogie, polskie"
+          ]
+        ]
+      }
+    },
+    {
+      "list": [
+        "To jest dobr**y** komputer. To jest now**y** dom.",
+        "To jest star**a** fotografia. To jest nisk**a** pani.",
+        "To jest now**e** okno. To jest polsk**ie** imię."
+      ]
+    },
+    {
+      "note": "Мужчины на **-a** (mężczyzna, kolega, poeta) требуют мужского прилагательного: **wysoki** mężczyzna, **dobry** poeta."
+    },
+    {
+      "h": "Национальность"
+    },
+    {
+      "p": "z Polski → **polski** samochód, **polska** tradycja, **polskie** imię. Пишутся с маленькой буквы: niemiecki, francuski, włoski, angielski, hiszpański, japoński, amerykański, rosyjski."
+    },
+    {
+      "h": "Вопрос о предмете"
+    },
+    {
+      "list": [
+        "Wisła to polska rzeka. — **Jaka** to rzeka?",
+        "Polonez to polski samochód. — **Jaki** to samochód?",
+        "Kowalski to polskie nazwisko. — **Jakie** to nazwisko?"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "q": "dobr… poeta",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "dobry"
+      ],
+      "explain": "poeta — мужчина, мужской род → **dobry**."
+    },
+    {
+      "q": "dobr… poetka",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "dobra"
+      ],
+      "explain": "poetka — женский → **dobra**."
+    },
+    {
+      "q": "polsk… rzeka",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "polska"
+      ],
+      "explain": "rzeka — женский → **polska**."
+    },
+    {
+      "q": "polsk… hotel",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "polski"
+      ],
+      "explain": "hotel — мужской, после k → **-i**: polski."
+    },
+    {
+      "q": "interesując… książka",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "interesująca"
+      ],
+      "explain": "książka — женский → **-a**."
+    },
+    {
+      "q": "dobr… wino",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "dobre"
+      ],
+      "explain": "wino — средний → **dobre**."
+    },
+    {
+      "q": "włosk… architektura",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "włoska"
+      ],
+      "explain": "architektura — женский → **włoska**."
+    },
+    {
+      "q": "amerykańsk… film",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "amerykański"
+      ],
+      "explain": "film — мужской → **amerykański**."
+    },
+    {
+      "q": "fataln… dzień",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "fatalny"
+      ],
+      "explain": "dzień — мужской → **fatalny**."
+    },
+    {
+      "q": "interesując… muzeum",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "interesujące"
+      ],
+      "explain": "muzeum — средний (-um) → **interesujące**."
+    },
+    {
+      "q": "hiszpańsk… miasto",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "hiszpańskie"
+      ],
+      "explain": "miasto — средний, после k → **-ie**."
+    },
+    {
+      "q": "now… lampa",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "nowa"
+      ],
+      "explain": "lampa — женский → **nowa**."
+    },
+    {
+      "q": "niemieck… bank",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "niemiecki"
+      ],
+      "explain": "bank — мужской, после k → **-i**."
+    },
+    {
+      "q": "polsk… piwo",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "polskie"
+      ],
+      "explain": "piwo — средний, после k → **-ie**."
+    },
+    {
+      "q": "eleganck… mężczyzna",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "elegancki"
+      ],
+      "explain": "mężczyzna — мужской род, хоть и на -a → **elegancki**."
+    },
+    {
+      "q": "dobr… gimnazjum",
+      "hint": "Напиши прилагательное целиком",
+      "answers": [
+        "dobre"
+      ],
+      "explain": "gimnazjum — средний (-um) → **dobre**."
+    },
+    {
+      "q": "Microsoft to amerykańska firma. — ___ to firma?",
+      "options": [
+        "Jaki",
+        "Jaka",
+        "Jakie"
+      ],
+      "answer": 1,
+      "explain": "firma — женский → **jaka**."
+    },
+    {
+      "q": "Suzuki to japońskie auto. — ___ to auto?",
+      "options": [
+        "Jaki",
+        "Jaka",
+        "Jakie"
+      ],
+      "answer": 2,
+      "explain": "auto — средний → **jakie**."
+    },
+    {
+      "q": "BMW to niemiecki samochód. — ___ to samochód?",
+      "options": [
+        "Jaki",
+        "Jaka",
+        "Jakie"
+      ],
+      "answer": 0,
+      "explain": "samochód — мужской → **jaki**."
+    },
+    {
+      "q": "___ jest to dziecko?",
+      "options": [
+        "Jaki",
+        "Jaka",
+        "Jakie"
+      ],
+      "answer": 2,
+      "explain": "dziecko — средний род → **jakie**."
+    }
+  ]
+}

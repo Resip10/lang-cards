@@ -1,0 +1,181 @@
+{
+  "name": "Спряжение -m, -sz",
+  "summary": "mam, czytam, rozumiem, mieszkam…",
+  "order": 3,
+  "sections": [
+    {
+      "p": "Большинство глаголов на **-ać** и часть на **-eć** спрягаются одинаково: к основе добавляются окончания **-m, -sz, -ø, -my, -cie, -ją**."
+    },
+    {
+      "table": {
+        "head": [
+          "",
+          "czytać",
+          "rozumieć",
+          "mieć"
+        ],
+        "rows": [
+          [
+            "ja",
+            "czyta**m**",
+            "rozumie**m**",
+            "ma**m**"
+          ],
+          [
+            "ty",
+            "czyta**sz**",
+            "rozumie**sz**",
+            "ma**sz**"
+          ],
+          [
+            "on / ona / ono, pan / pani",
+            "czyta",
+            "rozumie",
+            "ma"
+          ],
+          [
+            "my",
+            "czyta**my**",
+            "rozumie**my**",
+            "ma**my**"
+          ],
+          [
+            "wy",
+            "czyta**cie**",
+            "rozumie**cie**",
+            "ma**cie**"
+          ],
+          [
+            "oni / one, państwo",
+            "czyta**ją**",
+            "rozumie**ją**",
+            "ma**ją**"
+          ]
+        ]
+      }
+    },
+    {
+      "p": "Так же: **mieszkać**, **pytać**, **przepraszać**, **nazywać się** (nazywam się, nazywasz się…)."
+    },
+    {
+      "note": "С **pan / pani** глагол в 3-м лице ед. ч. (Co pan czyta?), с **państwo** — в 3-м лице мн. ч. (Co państwo czytają?). Местоимение (ja, ty, my) обычно опускают: окончание и так показывает лицо."
+    },
+    {
+      "p": "**być** (jestem, jesteś, jest, jesteśmy, jesteście, są) и **wiedzieć** (wiem, wiesz, wie, wiemy, wiecie, wiedzą) — неправильные, их надо запомнить отдельно."
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Gdzie (ty) ___? (mieszkać)",
+      "answers": [
+        "mieszkasz"
+      ],
+      "explain": "ty → **-sz**."
+    },
+    {
+      "q": "Gdzie oni ___? (mieszkać)",
+      "answers": [
+        "mieszkają"
+      ],
+      "explain": "oni → **-ją**."
+    },
+    {
+      "q": "Co pan ___? (czytać)",
+      "answers": [
+        "czyta"
+      ],
+      "explain": "pan → 3-е лицо ед. ч.: **czyta**."
+    },
+    {
+      "q": "Jak (wy) się ___? (nazywać się)",
+      "answers": [
+        "nazywacie"
+      ],
+      "explain": "wy → **-cie**."
+    },
+    {
+      "q": "(my) ___ gazetę. (czytać)",
+      "answers": [
+        "czytamy"
+      ],
+      "explain": "my → **-my**."
+    },
+    {
+      "q": "On ___. (pytać)",
+      "answers": [
+        "pyta"
+      ],
+      "explain": "on → основа без окончания: **pyta**."
+    },
+    {
+      "q": "(ja) Nie ___. (rozumieć)",
+      "answers": [
+        "rozumiem"
+      ],
+      "explain": "ja → **-m**."
+    },
+    {
+      "q": "Co państwo ___? (czytać)",
+      "answers": [
+        "czytają"
+      ],
+      "explain": "państwo → 3-е лицо мн. ч.: **czytają**."
+    },
+    {
+      "q": "Jak się pani ___? (mieć)",
+      "answers": [
+        "ma"
+      ],
+      "explain": "pani → **ma**."
+    },
+    {
+      "q": "Czy (wy) ___? (rozumieć)",
+      "answers": [
+        "rozumiecie"
+      ],
+      "explain": "wy → **-cie**."
+    },
+    {
+      "q": "(my) Bardzo ___. (przepraszać)",
+      "answers": [
+        "przepraszamy"
+      ],
+      "explain": "my → **-my**."
+    },
+    {
+      "q": "One ___ książkę. (czytać)",
+      "answers": [
+        "czytają"
+      ],
+      "explain": "one → **-ją**."
+    },
+    {
+      "q": "O co (wy) ___? (pytać)",
+      "answers": [
+        "pytacie"
+      ],
+      "explain": "wy → **-cie**."
+    },
+    {
+      "q": "(my) ___ duży dom. (mieć)",
+      "answers": [
+        "mamy"
+      ],
+      "explain": "my → **mamy**."
+    },
+    {
+      "q": "Czy oni ___ się Kowalscy? (nazywać się)",
+      "answers": [
+        "nazywają"
+      ],
+      "explain": "oni → **nazywają się**."
+    },
+    {
+      "q": "To ___ okulary. (być)",
+      "answers": [
+        "są"
+      ],
+      "explain": "okulary — мн. число → **są** (być неправильный)."
+    }
+  ]
+}
