@@ -32,6 +32,8 @@ interface AppState {
   review: (card: Card, track: Track, mode: StudyMode, grade: Grade) => ReviewUndo;
   undo: (u: ReviewUndo) => void;
   resetCard: (cardId: string) => void;
+  /** Hide a card for good (or bring it back). */
+  setSuspended: (cardId: string, on: boolean) => void;
   refresh: (silent?: boolean) => Promise<void>;
   reloadLocal: () => Promise<void>;
 }
@@ -192,6 +194,15 @@ export function AppProvider({ children }: { children: ReactNode }) {
     keys.forEach((k) => db.deleteProgress(k));
   }, []);
 
+  const setSuspended = useCallback(
+    (cardId: string, on: boolean) => {
+      const cur = settingsRef.current.suspended;
+      if (on === cur.includes(cardId)) return;
+      updateSettings({ suspended: on ? [...cur, cardId] : cur.filter((x) => x !== cardId) });
+    },
+    [updateSettings],
+  );
+
   const value: AppState = {
     ready,
     error,
@@ -208,6 +219,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
     review,
     undo,
     resetCard,
+    setSuspended,
     refresh,
     reloadLocal,
   };

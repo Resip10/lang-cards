@@ -4,16 +4,18 @@ import { Home, useQueue } from './screens/Home';
 import { Study } from './screens/Study';
 import { Browse } from './screens/Browse';
 import { Stats } from './screens/Stats';
+import { Rules } from './screens/Rules';
 import { SettingsScreen } from './screens/Settings';
 import { Icon } from './components/Icon';
 import type { IconName } from './components/Icon';
 import type { QueueItem } from './lib/srs';
 
-type Tab = 'home' | 'browse' | 'stats' | 'settings';
+type Tab = 'home' | 'browse' | 'rules' | 'stats' | 'settings';
 
 const TABS: { id: Tab; label: string; icon: IconName }[] = [
   { id: 'home', label: 'Учить', icon: 'learn' },
   { id: 'browse', label: 'Карточки', icon: 'cards' },
+  { id: 'rules', label: 'Правила', icon: 'rules' },
   { id: 'stats', label: 'Статистика', icon: 'stats' },
   { id: 'settings', label: 'Настройки', icon: 'settings' },
 ];
@@ -58,8 +60,15 @@ function Shell() {
     );
   }
 
+  const toastEl = toast && (
+    <div className="toast" role="status">
+      {toast}
+    </div>
+  );
+
   if (session) {
     return (
+      <>
       <Study
         key={session.length + (session[0]?.card.id ?? '')}
         items={session}
@@ -69,6 +78,8 @@ function Shell() {
         }}
         onMore={() => more().items}
       />
+      {toastEl}
+      </>
     );
   }
 
@@ -77,6 +88,7 @@ function Shell() {
       <main>
         {tab === 'home' && <Home onStart={setSession} />}
         {tab === 'browse' && <Browse />}
+        {tab === 'rules' && <Rules />}
         {tab === 'stats' && <Stats />}
         {tab === 'settings' && <SettingsScreen />}
       </main>
@@ -88,11 +100,7 @@ function Shell() {
           </button>
         ))}
       </nav>
-      {toast && (
-        <div className="toast" role="status">
-          {toast}
-        </div>
-      )}
+      {toastEl}
     </div>
   );
 }

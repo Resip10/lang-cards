@@ -23,7 +23,7 @@ const FILTERS: { id: Filter; label: string }[] = [
 const fold = (s: string) => stripMarks(s.toLowerCase());
 
 export function Browse() {
-  const { cards, progress, settings, updateSettings, resetCard, language } = useApp();
+  const { cards, progress, settings, setSuspended, resetCard, language } = useApp();
   const [q, setQ] = useState('');
   const [filter, setFilter] = useState<Filter>('all');
   const [open, setOpen] = useState<string>();
@@ -51,10 +51,7 @@ export function Browse() {
   const say = (c: Card) =>
     language && speak(c.audio ?? c.front, language.tts, settings.ttsRate, settings.voices[language.code]);
 
-  const toggleSuspend = (id: string) => {
-    const next = suspended.has(id) ? settings.suspended.filter((x) => x !== id) : [...settings.suspended, id];
-    updateSettings({ suspended: next });
-  };
+  const toggleSuspend = (id: string) => setSuspended(id, !suspended.has(id));
 
   return (
     <div className="screen browse">

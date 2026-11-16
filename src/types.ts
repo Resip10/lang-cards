@@ -50,6 +50,63 @@ export interface GroupNode {
 
 export type TreeNode = DeckNode | GroupNode;
 
+/** A grammar rule page: explanation plus a few exercises. Lives next to decks as *.rule.json. */
+export interface RuleNode {
+  kind: 'rule';
+  id: string;
+  file: string;
+  name: string;
+  summary?: string;
+  count: number;
+  hash: string;
+  order?: number;
+}
+
+export interface RuleGroup {
+  kind: 'group';
+  id: string;
+  name: string;
+  order?: number;
+  children: RuleTree[];
+}
+
+export type RuleTree = RuleNode | RuleGroup;
+
+/** One block of a rule's explanation. Strings may use **bold**. */
+export interface RuleSection {
+  h?: string;
+  p?: string;
+  list?: string[];
+  table?: { head?: string[]; rows: string[][] };
+  note?: string;
+}
+
+/** Either typed (`answers`) or multiple choice (`options` + `answer` index). */
+export interface Exercise {
+  q: string;
+  /** Translation or instruction shown under the question. */
+  hint?: string;
+  answers?: string[];
+  options?: string[];
+  answer?: number;
+  /** Diacritic slips count as wrong (spelling exercises). */
+  strict?: boolean;
+  explain?: string;
+}
+
+export interface RuleFile {
+  name: string;
+  summary?: string;
+  sections: RuleSection[];
+  exercises?: Exercise[];
+}
+
+export interface RuleScore {
+  right: number;
+  total: number;
+  at: number;
+}
+
 export interface Language {
   code: string;
   name: string;
@@ -58,6 +115,7 @@ export interface Language {
   chars: string;
   total: number;
   tree: TreeNode[];
+  rules?: RuleTree[];
 }
 
 export interface Manifest {
@@ -110,7 +168,10 @@ export interface Settings {
   scope: Record<string, string[]>;
   /** Preferred voice URI per language code. */
   voices: Record<string, string>;
+  /** Card ids hidden for good ("skip forever"); restorable in settings. */
   suspended: string[];
+  /** Last exercise result per rule id. */
+  ruleScores: Record<string, RuleScore>;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -123,4 +184,5 @@ export const DEFAULT_SETTINGS: Settings = {
   scope: {},
   voices: {},
   suspended: [],
+  ruleScores: {},
 };

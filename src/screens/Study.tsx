@@ -42,7 +42,7 @@ interface Snapshot {
 }
 
 export function Study({ items, onExit, onMore }: { items: QueueItem[]; onExit: () => void; onMore: () => QueueItem[] }) {
-  const { review, undo, progress, settings, language } = useApp();
+  const { review, undo, progress, settings, language, setSuspended, setToast } = useApp();
   const [queue, setQueue] = useState<QueueItem[]>(() => items.slice(1));
   const [pending, setPending] = useState<Pending[]>([]);
   const [current, setCurrent] = useState<QueueItem | undefined>(items[0]);
@@ -52,6 +52,7 @@ export function Study({ items, onExit, onMore }: { items: QueueItem[]; onExit: (
   const [done, setDone] = useState(0);
   const [right, setRight] = useState(0);
   const [history, setHistory] = useState<Snapshot[]>([]);
+  const [confirmSkip, setConfirmSkip] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
   const tts = language?.tts ?? 'pl-PL';
@@ -104,6 +105,19 @@ export function Study({ items, onExit, onMore }: { items: QueueItem[]; onExit: (
     setRevealed(false);
     setTyped('');
     setResult(undefined);
+    setConfirmSkip(false);
+  };
+
+  // "Skip forever": hide the card everywhere and drop both of its tracks from this session.
+  const skipForever = () => {
+    if (!current) return;
+    const id = current.card.id;
+    setSuspended(id, true);
+    setToast(`«${current.card.front}» больше не будет показываться. Вернуть можно в Настройках.`);
+    advance(
+      queue.filter((q) => q.card.id !== id),
+      pending.filter((p) => p.item.card.id !== id),
+    );
   };
 
   const rate = (grade: Grade) => {
@@ -152,7 +166,7 @@ export function Study({ items, onExit, onMore }: { items: QueueItem[]; onExit: (
   // Keyboard: space/enter reveals, 1–4 rate, enter accepts the suggestion after typing.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (!current) return;
+      if (!current || confirmSkip) return;
       const inInput = (e.target as HTMLElement)?.tagName === 'INPUT';
       if (!revealed) {
         if (!typing && (e.key === ' ' || e.key === 'Enter')) {
@@ -242,7 +256,26 @@ export function Study({ items, onExit, onMore }: { items: QueueItem[]; onExit: (
             <span className="mode-tag">{modeLabel}</span>
             {current.isNew && <span className="new-tag">новая</span>}
             <span className="deck-tag">{card.deckName}</span>
+            <button className="skip-btn" onClick={() => setConfirmSkip(true)} aria-label="Больше не показывать" title="Больше не показывать">
+              <Icon name="hide" size={16} />
+            </button>
           </div>
+
+          {confirmSkip && (
+            <div className="skip-confirm" role="alertdialog" aria-label="Пропустить навсегда">
+              <p>
+                Больше никогда не показывать «<b lang={card.lang}>{card.front}</b>»?
+              </p>
+              <div className="row-actions">
+                <button className="btn small" onClick={() => setConfirmSkip(false)}>
+                  Отмена
+                </button>
+                <button className="btn small primary" onClick={skipForever}>
+                  Пропустить навсегда
+                </button>
+              </div>
+            </div>
+          )}
 
           <div className="prompt">
             {mode === 'audio' && !revealed ? (

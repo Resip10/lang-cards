@@ -134,7 +134,7 @@ h2 {
   right: 0;
   bottom: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   height: calc(var(--tab-h) + env(safe-area-inset-bottom));
   padding-bottom: env(safe-area-inset-bottom);
   background: var(--card);
@@ -1154,4 +1154,158 @@ select {
     animation: none !important;
     transition: none !important;
   }
+}
+
+/* ---------- skip forever ---------- */
+.skip-btn {
+  border: 0;
+  background: none;
+  color: var(--muted);
+  opacity: 0.55;
+  width: 30px;
+  height: 30px;
+  margin-right: -8px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  flex: none;
+}
+.skip-btn:hover {
+  opacity: 1;
+  background: var(--ink-soft);
+}
+.skip-confirm {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 8px;
+  background: var(--paper);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.skip-confirm p {
+  margin: 0;
+}
+.skip-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skip-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+}
+.skip-list li + li {
+  border-top: 1px solid var(--line);
+}
+.skip-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- rules ---------- */
+.rule-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.rule-section h2 {
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 600;
+  margin: 0;
+}
+.rule-top {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: -10px;
+}
+.rule-top h1 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+.rule-body {
+  line-height: 1.5;
+}
+.rule-body h2 {
+  font-size: 1.05rem;
+  margin: 6px 0 0;
+}
+.rule-body p,
+.rule-body ul {
+  margin: 0;
+}
+.rule-body ul {
+  padding-left: 20px;
+}
+.rule-table {
+  overflow-x: auto;
+  margin: 0 -4px;
+}
+.rule-table table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.92rem;
+}
+.rule-table th,
+.rule-table td {
+  border: 1px solid var(--line);
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.rule-table th {
+  background: var(--ink-soft);
+  font-weight: 600;
+}
+.rule-practice {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.practice {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.practice-card {
+  padding-top: 20px;
+}
+.practice-q {
+  font: 500 1.3rem/1.4 var(--serif);
+  margin: 0 0 6px;
+}
+.options {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.option {
+  text-align: left;
+}
+.option:disabled {
+  opacity: 1;
+}
+.option.opt-ok {
+  border-color: var(--easy);
+  color: var(--easy);
+  font-weight: 600;
+}
+.option.opt-bad {
+  border-color: var(--again);
+  color: var(--again);
+}
+.option.opt-dim {
+  opacity: 0.5;
+}
+.practice-done h2 {
+  font-size: 2rem;
+  margin: 0;
 }

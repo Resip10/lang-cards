@@ -1,14 +1,19 @@
-import { useRef, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import { useApp } from '../state';
 import { exportBackup, importBackup, resetAll } from '../lib/storage';
 import { speak, voicesFor } from '../lib/tts';
 
 export function SettingsScreen() {
-  const { settings, updateSettings, voices, language, manifest, refresh, reloadLocal, setToast, cards, logs } = useApp();
+  const { settings, updateSettings, setSuspended, voices, language, manifest, refresh, reloadLocal, setToast, cards, logs } =
+    useApp();
   const fileRef = useRef<HTMLInputElement>(null);
   const [checking, setChecking] = useState(false);
   const langVoices = language ? voicesFor(voices, language.tts) : [];
   const sample = cards[0]?.front ?? '';
+  const skipped = useMemo(() => {
+    const set = new Set(settings.suspended);
+    return cards.filter((c) => set.has(c.id));
+  }, [cards, settings.suspended]);
 
   const download = async () => {
     const blob = await exportBackup();
@@ -64,6 +69,44 @@ export function SettingsScreen() {
             память. 90% — хороший баланс.
           </span>
         </label>
+      </section>
+
+      <section className="panel">
+        <h2>Пропущенные слова{skipped.length > 0 && ` (${skipped.length})`}</h2>
+        {skipped.length === 0 ? (
+          <p className="f-help">
+            Здесь появятся слова, которые ты пропустил навсегда кнопкой в углу карточки. Отсюда их можно вернуть.
+          </p>
+        ) : (
+          <>
+            <ul className="skip-list">
+              {skipped.map((c) => (
+                <li key={c.id}>
+                  <span className="skip-text">
+                    <span className="row-front" lang={c.lang}>
+                      {c.front}
+                    </span>
+                    <span className="row-back">{c.back}</span>
+                  </span>
+                  <button className="btn small" onClick={() => setSuspended(c.id, false)}>
+                    Вернуть
+                  </button>
+                </li>
+              ))}
+            </ul>
+            {skipped.length > 1 && (
+              <button
+                className="btn small ghost"
+                onClick={() => {
+                  const ids = new Set(skipped.map((c) => c.id));
+                  updateSettings({ suspended: settings.suspended.filter((id) => !ids.has(id)) });
+                }}
+              >
+                Вернуть все
+              </button>
+            )}
+          </>
+        )}
       </section>
 
       <section className="panel">

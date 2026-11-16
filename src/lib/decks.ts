@@ -1,4 +1,4 @@
-import type { Card, DeckFile, DeckNode, Language, Manifest, TreeNode } from '../types';
+import type { Card, DeckFile, DeckNode, Language, Manifest, RuleFile, RuleNode, TreeNode } from '../types';
 
 export async function fetchManifest(): Promise<Manifest> {
   const res = await fetch('/decks/manifest.json', { cache: 'no-cache' });
@@ -23,4 +23,10 @@ export async function fetchCards(lang: Language): Promise<Card[]> {
   return files.flatMap(({ deck, data }) =>
     data.cards.map((c) => ({ ...c, lang: lang.code, deckId: deck.id, deckName: deck.name, order: order++ })),
   );
+}
+
+export async function fetchRule(rule: RuleNode): Promise<RuleFile> {
+  const res = await fetch(`/${rule.file}?v=${rule.hash}`);
+  if (!res.ok) throw new Error(`Не удалось загрузить правило «${rule.name}»`);
+  return res.json();
 }
